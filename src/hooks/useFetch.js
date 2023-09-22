@@ -24,6 +24,7 @@ export const useFetch = (url) => {
   }, [url]);
 
   return {
+    getFetch,
     data: state.data,
     isLoading: state.isLoading,
     hasError: state.hasError,
