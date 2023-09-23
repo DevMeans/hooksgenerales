@@ -10,10 +10,11 @@ import './index.css'
 //import { UseRef } from './useRef/UseRef'
 //import { Memorize } from './memos/Memorize'
 //import { MemoHook } from './memos/MemoHook'
-import { CallbackHook } from './memos/CallbackHook'
+//import { CallbackHook } from './memos/CallbackHook'
+import { Padre } from './07-tarea-memo/Padre'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <CallbackHook />
-  </React.StrictMode>,
+ 
+    <Padre />
+ 
 )
