@@ -7,10 +7,12 @@ import './index.css'
 //import { SimpleForm } from './useEffect/SimpleForm'
 //import { FormWithCustomHook } from './useEffect/FormWithCustomHook'
 //import { MultipleCustomHooks } from './examples/MultipleCustomHooks'
-import { UseRef } from './useRef/UseRef'
+//import { UseRef } from './useRef/UseRef'
+//import { Memorize } from './memos/Memorize'
+import { MemoHook } from './memos/MemoHook'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <UseRef />
+    <MemoHook />
   </React.StrictMode>,
 )
