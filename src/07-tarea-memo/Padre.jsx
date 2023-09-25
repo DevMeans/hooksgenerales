@@ -10,7 +10,7 @@ export const Padre = () => {
   }, []);
 
   return (
-    <div>
+    <div className="container">
       <h1>Padre</h1>
       <p> Total: {valor} </p>
 
